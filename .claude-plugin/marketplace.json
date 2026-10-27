@@ -1,0 +1,15 @@
+{
+  "name": "compass-nexus",
+  "description": "Claude Code plugins for Compass Nexus iQ.",
+  "owner": {
+    "name": "Compass Travel & Transportation"
+  },
+  "plugins": [
+    {
+      "name": "compass-nexus-design",
+      "source": "./contrib/claude-plugins/compass-nexus-design",
+      "description": "Hallmark design skill with the Compass Nexus iQ theme, brand rules and edit-time lint hook.",
+      "category": "design"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Hallmark edit-time Floor check: lints Hallmark-stamped HTML/CSS (and components inside a project with a .hallmark folder) after each write. Advises through additionalContext and never blocks.",
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}\"/skills/hallmark/scripts/lint-hook.mjs",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

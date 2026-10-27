@@ -107,7 +107,9 @@ bun.lock
 .agents
 .gemini
 .claude
+.claude-plugin
 .source
+contrib/claude-plugins
 
 # Misc
 llm.txt

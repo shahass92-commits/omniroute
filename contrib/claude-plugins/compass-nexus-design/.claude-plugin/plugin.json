@@ -1,0 +1,22 @@
+{
+  "name": "compass-nexus-design",
+  "displayName": "Compass Nexus iQ Design",
+  "version": "0.1.0",
+  "description": "Brand design for Compass Nexus iQ: Hallmark's anti-AI-slop design skill (vendored, MIT), a Compass theme in navy, gold and glass with day and night modes, a brand skill for the website, admin command centre, customer portal, driver and employee apps, and Hallmark's edit-time lint hook.",
+  "author": {
+    "name": "Compass Travel & Transportation"
+  },
+  "homepage": "https://github.com/shahass92-commits/omniroute/tree/HEAD/contrib/claude-plugins/compass-nexus-design",
+  "repository": "https://github.com/shahass92-commits/omniroute",
+  "license": "MIT",
+  "keywords": [
+    "design",
+    "ui",
+    "hallmark",
+    "compass-nexus-iq",
+    "mobility",
+    "employee-transport",
+    "themes",
+    "dark-mode"
+  ]
+}

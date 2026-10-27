@@ -242,6 +242,8 @@ const eslintConfig = [
       "vscode-extension/**",
       // packages/ui-kit/ — snapshot vendorizado do CI UI Kit (lintado upstream; patches locais proibidos)
       "packages/ui-kit/**",
+      // Hallmark skill vendored into the Compass Nexus design plugin (linted upstream; synced verbatim)
+      "contrib/claude-plugins/compass-nexus-design/skills/hallmark/**",
       "_references/**",
       "_mono_repo/**",
       "review/**",
