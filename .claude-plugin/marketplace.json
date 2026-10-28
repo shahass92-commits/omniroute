@@ -1,0 +1,21 @@
+{
+  "name": "omniroute-plugins",
+  "description": "Claude Code plugins used when working on OmniRoute",
+  "owner": {
+    "name": "shahass92-commits"
+  },
+  "plugins": [
+    {
+      "name": "superpowers",
+      "description": "Core skills library for Claude Code: TDD, debugging, collaboration patterns, and proven techniques",
+      "version": "7.0.1",
+      "homepage": "https://github.com/obra/superpowers",
+      "license": "MIT",
+      "source": {
+        "source": "github",
+        "repo": "obra/superpowers",
+        "sha": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b"
+      }
+    }
+  ]
+}
